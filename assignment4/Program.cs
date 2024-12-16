@@ -98,9 +98,9 @@ public class Program
     {
         List<Employee> employees = new List<Employee>
         {
-            new ContractEmployee(1, "John Doe", "Manager A", new DateTime(2023, 1, 1), 12, 5000),
-            new PayrollEmployee(2, "Jane Smith", "Manager B", new DateTime(2015, 6, 1), 8, 60000),
-            new PayrollEmployee(3, "Alice Johnson", "Manager C", new DateTime(2010, 3, 1), 12, 80000)
+            new ContractEmployee(1, "Harsha", "Manager A", new DateTime(2023, 1, 1), 12, 5000),
+            new PayrollEmployee(2, "Ravi", "Manager B", new DateTime(2015, 6, 1), 8, 60000),
+            new PayrollEmployee(3, "Bahubali", "Manager C", new DateTime(2010, 3, 1), 12, 80000)
         };
 
         foreach (var employee in employees)
